@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>BackEnd</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="tabs.css">
+<style>
+</style>
+<script src=""></script>
+<body >
+    <div id="menu">
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Front-End</a></li>
+            <li><a href="#">Back-End</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Jobs</a></li>
+            
+        </ul>
+    
+    </div><!-- menu -->
+    <h1 style="color:white;">Back End</h1>
+    <p style="color:white;border:white;border-style:solid;">Back-end development focuses on what's "under the hood" of
+        an application of website, or working on the server-side of things.Back-end developers focus on databases, back-end logic,
+         application programming interface (APIs), architecture, and servers. 
+        They use code that helps browsers communicate with databases, store, understand, and delete data.
+        databases, back-end logic, application programming interface (APIs), architecture, and servers. 
+        They use code that helps browsers communicate with databases, store, understand, and delete data.
+        <a href="https://www.coursera.org/articles/back-end-developer">(source)</a>Below will be some of the tools 
+        you can expect a back-end developer to be using often.
+    </p>
+
+    <div class="tabs">
+  
+      <input type="radio" name="tabs" id="tabone" checked="checked">
+      <label for="tabone">Java</label>
+      <div class="tab">
+        <h1>Java</h1>
+        <p>Java is a object-oriented programming language that is used often on the server-side of web applications,a simple explanation of
+            what object-oriented means is that everything in the code is an "object" that has a state that can be changed by interacting other with 
+            objects.One of the features that make java such a popular language is that its easy to make modular code, as in you can take 
+            components of your code and use them with other components.Your typical java code could look something like this
+    <pre><code style="color:gray">
+        public static void main(String args[]){// this is your "main method"//
+            System.out.println("Hello World")//this one line of text will print "Hello World"!//
+        }
+    </code></pre>
+    <a href="https://www.w3schools.com/java/java_intro.asp">Further reading</a> </p>
+
+      </div>
+  
+      <input type="radio" name="tabs" id="tabtwo">
+      <label for="tabtwo">Spring</label>
+      <div class="tab">
+        <h1>Spring</h1>
+        <p>Spring is a framework that is used to build web applications using java,you can think of a framework as a "skeleton" to a program
+            that comes with features and tools that make it easier to build your program.One of the core features of spring is dependency injection.
+            Depency injection is a way for your objects to not have to rely on other objects, making it very easy to test them without worrying about
+            affecting objects we don't care about.Spring is a complex framework with many features so further reading is suggested if curious
+            about it's workings.
+        <a href="https://spring.io/">Further reading</a></p>
+      </div>
+      
+      <input type="radio" name="tabs" id="tabthree">
+      <label for="tabthree">MySql</label>
+      <div class="tab">
+        <h1>MySql</h1>
+        <p>Databases are very important and are constantly being worked with in the life of a back-end developer,MySql is an open source tool that
+            aids in the management of these  databases.When you are working on only a few pieces of data its a simple task to manage a database with such a size,
+            but when you work with millions of pieces of data,software such as MySql become needed to be able to handle such a workload.
+        <a href="https://www.w3schools.com/MySQL/default.asp">Further reading</a></p>
+      </div>
+    </div>
+  
+  </body>
